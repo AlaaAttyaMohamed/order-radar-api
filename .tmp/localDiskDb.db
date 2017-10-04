@@ -1,0 +1,54 @@
+{
+  "data": {
+    "order": [
+      {
+        "title": "fool",
+        "restaurant": "abo youssef",
+        "createdAt": "2017-10-04T09:50:45.170Z",
+        "updatedAt": "2017-10-04T09:50:45.170Z",
+        "id": 1
+      },
+      {
+        "title": "fool",
+        "restaurant": "abo youssef",
+        "createdAt": "2017-10-04T10:08:18.111Z",
+        "updatedAt": "2017-10-04T10:08:18.111Z",
+        "id": 2
+      },
+      {
+        "title": "ta3meya",
+        "restaurant": "3azza",
+        "createdAt": "2017-10-04T10:08:46.733Z",
+        "updatedAt": "2017-10-04T10:08:46.733Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "order": {
+      "title": {
+        "type": "string"
+      },
+      "restaurantTitle": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "order": {
+      "id": 3
+    }
+  }
+}
